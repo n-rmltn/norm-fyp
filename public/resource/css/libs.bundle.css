@@ -1,0 +1,1966 @@
+.flag-icon,.flag-icon-background{
+    @apply bg-contain bg-[50%] bg-no-repeat
+}
+.flag-icon{
+    @apply relative inline-block w-[1.33333333em] leading-[1em] before:content-["\00a0"]
+}
+.flag-icon.flag-icon-squared{
+    @apply w-[1em]
+}
+.flag-icon-ad{
+    @apply bg-[url(../flags/4x3/ad.svg)]
+}
+.flag-icon-ad.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ad.svg)]
+}
+.flag-icon-ae{ 
+    @apply bg-[url(../flags/4x3/ae.svg)]
+}
+.flag-icon-ae.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ae.svg)]
+}
+.flag-icon-af{
+    @apply bg-[url(../flags/4x3/af.svg)]
+}
+.flag-icon-af.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/af.svg)]
+}
+.flag-icon-ag{
+    @apply bg-[url(../flags/4x3/ag.svg)]
+}
+.flag-icon-ag.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ag.svg)]
+}
+.flag-icon-ai{
+    @apply bg-[url(../flags/4x3/ai.svg)]
+}
+.flag-icon-ai.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ai.svg)]
+}
+.flag-icon-al{
+    @apply bg-[url(../flags/4x3/al.svg)]
+}
+.flag-icon-al.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/al.svg)]
+}
+.flag-icon-am{
+    @apply bg-[url(../flags/4x3/am.svg)]
+}
+.flag-icon-am.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/am.svg)]
+}
+.flag-icon-ao{
+    @apply bg-[url(../flags/4x3/ao.svg)]
+}
+.flag-icon-ao.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ao.svg)]
+}
+.flag-icon-aq{
+    @apply bg-[url(../flags/4x3/aq.svg)]
+}
+.flag-icon-aq.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/aq.svg)]
+}
+.flag-icon-ar{
+    @apply bg-[url(../flags/4x3/ar.svg)]
+}
+.flag-icon-ar.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ar.svg)]
+}
+.flag-icon-as{
+    @apply bg-[url(../flags/4x3/as.svg)]
+}
+.flag-icon-as.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/as.svg)]
+}
+.flag-icon-at{
+    @apply bg-[url(../flags/4x3/at.svg)]
+}
+.flag-icon-at.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/at.svg)]
+}
+.flag-icon-au{
+    @apply bg-[url(../flags/4x3/au.svg)]
+}
+.flag-icon-au.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/au.svg)]
+}
+.flag-icon-aw{
+    @apply bg-[url(../flags/4x3/aw.svg)]
+}
+.flag-icon-aw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/aw.svg)]
+}
+.flag-icon-ax{
+    @apply bg-[url(../flags/4x3/ax.svg)]
+}
+.flag-icon-ax.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ax.svg)]
+}
+.flag-icon-az{
+    @apply bg-[url(../flags/4x3/az.svg)]
+}
+.flag-icon-az.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/az.svg)]
+}
+.flag-icon-ba{
+    @apply bg-[url(../flags/4x3/ba.svg)]
+}
+.flag-icon-ba.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ba.svg)]
+}
+.flag-icon-bb{
+    @apply bg-[url(../flags/4x3/bb.svg)]
+}
+.flag-icon-bb.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bb.svg)]
+}
+.flag-icon-bd{
+    @apply bg-[url(../flags/4x3/bd.svg)]
+}
+.flag-icon-bd.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bd.svg)]
+}
+.flag-icon-be{
+    @apply bg-[url(../flags/4x3/be.svg)]
+}
+.flag-icon-be.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/be.svg)]
+}
+.flag-icon-bf{
+    @apply bg-[url(../flags/4x3/bf.svg)]
+}
+.flag-icon-bf.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bf.svg)]
+}
+.flag-icon-bg{
+    @apply bg-[url(../flags/4x3/bg.svg)]
+}
+.flag-icon-bg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bg.svg)]
+}
+.flag-icon-bh{
+    @apply bg-[url(../flags/4x3/bh.svg)]
+}
+.flag-icon-bh.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bh.svg)]
+}
+.flag-icon-bi{
+    @apply bg-[url(../flags/4x3/bi.svg)]
+}
+.flag-icon-bi.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bi.svg)]
+}
+.flag-icon-bj{
+    @apply bg-[url(../flags/4x3/bj.svg)]
+}
+.flag-icon-bj.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bj.svg)]
+}
+.flag-icon-bl{
+    @apply bg-[url(../flags/4x3/bl.svg)]
+}
+.flag-icon-bl.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bl.svg)]
+}
+.flag-icon-bm{
+    @apply bg-[url(../flags/4x3/bm.svg)]
+}
+.flag-icon-bm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bm.svg)]
+}
+.flag-icon-bn{
+    @apply bg-[url(../flags/4x3/bn.svg)]
+}
+.flag-icon-bn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bn.svg)]
+}
+.flag-icon-bo{
+    @apply bg-[url(../flags/4x3/bo.svg)]
+}
+.flag-icon-bo.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bo.svg)]
+}
+.flag-icon-bq{
+    @apply bg-[url(../flags/4x3/bq.svg)]
+}
+.flag-icon-bq.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bq.svg)]
+}
+.flag-icon-br{
+    @apply bg-[url(../flags/4x3/br.svg)]
+}
+.flag-icon-br.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/br.svg)]
+}
+.flag-icon-bs{
+    @apply bg-[url(../flags/4x3/bs.svg)]
+}
+.flag-icon-bs.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bs.svg)]
+}
+.flag-icon-bt{
+    @apply bg-[url(../flags/4x3/bt.svg)]
+}
+.flag-icon-bt.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bt.svg)]
+}
+.flag-icon-bv{
+    @apply bg-[url(../flags/4x3/bv.svg)]
+}
+.flag-icon-bv.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bv.svg)]
+}
+.flag-icon-bw{
+    @apply bg-[url(../flags/4x3/bw.svg)]
+}
+.flag-icon-bw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bw.svg)]
+}
+.flag-icon-by{
+    @apply bg-[url(../flags/4x3/by.svg)]
+}
+.flag-icon-by.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/by.svg)]
+}
+.flag-icon-bz{
+    @apply bg-[url(../flags/4x3/bz.svg)]
+}
+.flag-icon-bz.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/bz.svg)]
+}
+.flag-icon-ca{
+    @apply bg-[url(../flags/4x3/ca.svg)]
+}
+.flag-icon-ca.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ca.svg)]
+}
+.flag-icon-cc{
+    @apply bg-[url(../flags/4x3/cc.svg)]
+}
+.flag-icon-cc.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cc.svg)]
+}
+.flag-icon-cd{
+    @apply bg-[url(../flags/4x3/cd.svg)]
+}
+.flag-icon-cd.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cd.svg)]
+}
+.flag-icon-cf{
+    @apply bg-[url(../flags/4x3/cf.svg)]
+}
+.flag-icon-cf.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cf.svg)]
+}
+.flag-icon-cg{
+    @apply bg-[url(../flags/4x3/cg.svg)]
+}
+.flag-icon-cg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cg.svg)]
+}
+.flag-icon-ch{
+    @apply bg-[url(../flags/4x3/ch.svg)]
+}
+.flag-icon-ch.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ch.svg)]
+}
+.flag-icon-ci{
+    @apply bg-[url(../flags/4x3/ci.svg)]
+}
+.flag-icon-ci.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ci.svg)]
+}
+.flag-icon-ck{
+    @apply bg-[url(../flags/4x3/ck.svg)]
+}
+.flag-icon-ck.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ck.svg)]
+}
+.flag-icon-cl{
+    @apply bg-[url(../flags/4x3/cl.svg)]
+}
+.flag-icon-cl.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cl.svg)]
+}
+.flag-icon-cm{
+    @apply bg-[url(../flags/4x3/cm.svg)]
+}
+.flag-icon-cm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cm.svg)]
+}
+.flag-icon-cn{
+    @apply bg-[url(../flags/4x3/cn.svg)]
+}
+.flag-icon-cn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cn.svg)]
+}
+.flag-icon-co{
+    @apply bg-[url(../flags/4x3/co.svg)]
+}
+.flag-icon-co.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/co.svg)]
+}
+.flag-icon-cr{
+    @apply bg-[url(../flags/4x3/cr.svg)]
+}
+.flag-icon-cr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cr.svg)]
+}
+.flag-icon-cu{
+    @apply bg-[url(../flags/4x3/cu.svg)]
+}
+.flag-icon-cu.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cu.svg)]
+}
+.flag-icon-cv{
+    @apply bg-[url(../flags/4x3/cv.svg)]
+}
+.flag-icon-cv.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cv.svg)]
+}
+.flag-icon-cw{
+    @apply bg-[url(../flags/4x3/cw.svg)]
+}
+.flag-icon-cw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cw.svg)]
+}
+.flag-icon-cx{
+    @apply bg-[url(../flags/4x3/cx.svg)]
+}
+.flag-icon-cx.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cx.svg)]
+}
+.flag-icon-cy{
+    @apply bg-[url(../flags/4x3/cy.svg)]
+}
+.flag-icon-cy.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cy.svg)]
+}
+.flag-icon-cz{
+    @apply bg-[url(../flags/4x3/cz.svg)]
+}
+.flag-icon-cz.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/cz.svg)]
+}
+.flag-icon-de{
+    @apply bg-[url(../flags/4x3/de.svg)]
+}
+.flag-icon-de.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/de.svg)]
+}
+.flag-icon-dj{
+    @apply bg-[url(../flags/4x3/dj.svg)]
+}
+.flag-icon-dj.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/dj.svg)]
+}
+.flag-icon-dk{
+    @apply bg-[url(../flags/4x3/dk.svg)]
+}
+.flag-icon-dk.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/dk.svg)]
+}
+.flag-icon-dm{
+    @apply bg-[url(../flags/4x3/dm.svg)]
+}
+.flag-icon-dm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/dm.svg)]
+}
+.flag-icon-do{
+    @apply bg-[url(../flags/4x3/do.svg)]
+}
+.flag-icon-do.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/do.svg)]
+}
+.flag-icon-dz{
+    @apply bg-[url(../flags/4x3/dz.svg)]
+}
+.flag-icon-dz.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/dz.svg)]
+}
+.flag-icon-ec{
+    @apply bg-[url(../flags/4x3/ec.svg)]
+}
+.flag-icon-ec.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ec.svg)]
+}
+.flag-icon-ee{
+    @apply bg-[url(../flags/4x3/ee.svg)]
+}
+.flag-icon-ee.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ee.svg)]
+}
+.flag-icon-eg{
+    @apply bg-[url(../flags/4x3/eg.svg)]
+}
+.flag-icon-eg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/eg.svg)]
+}
+.flag-icon-eh{
+    @apply bg-[url(../flags/4x3/eh.svg)]
+}
+.flag-icon-eh.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/eh.svg)]
+}
+.flag-icon-er{
+    @apply bg-[url(../flags/4x3/er.svg)]
+}
+.flag-icon-er.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/er.svg)]
+}
+.flag-icon-es{
+    @apply bg-[url(../flags/4x3/es.svg)]
+}
+.flag-icon-es.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/es.svg)]
+}
+.flag-icon-et{
+    @apply bg-[url(../flags/4x3/et.svg)]
+}
+.flag-icon-et.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/et.svg)]
+}
+.flag-icon-fi{
+    @apply bg-[url(../flags/4x3/fi.svg)]
+}
+.flag-icon-fi.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/fi.svg)]
+}
+.flag-icon-fj{
+    @apply bg-[url(../flags/4x3/fj.svg)]
+}
+.flag-icon-fj.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/fj.svg)]
+}
+.flag-icon-fk{
+    @apply bg-[url(../flags/4x3/fk.svg)]
+}
+.flag-icon-fk.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/fk.svg)]
+}
+.flag-icon-fm{
+    @apply bg-[url(../flags/4x3/fm.svg)]
+}
+.flag-icon-fm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/fm.svg)]
+}
+.flag-icon-fo{
+    @apply bg-[url(../flags/4x3/fo.svg)]
+}
+.flag-icon-fo.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/fo.svg)]
+}
+.flag-icon-fr{
+    @apply bg-[url(../flags/4x3/fr.svg)]
+}
+.flag-icon-fr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/fr.svg)]
+}
+.flag-icon-ga{
+    @apply bg-[url(../flags/4x3/ga.svg)]
+}
+.flag-icon-ga.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ga.svg)]
+}
+.flag-icon-gb{
+    @apply bg-[url(../flags/4x3/gb.svg)]
+}
+.flag-icon-gb.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gb.svg)]
+}
+.flag-icon-gd{
+    @apply bg-[url(../flags/4x3/gd.svg)]
+}
+.flag-icon-gd.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gd.svg)]
+}
+.flag-icon-ge{
+    @apply bg-[url(../flags/4x3/ge.svg)]
+}
+.flag-icon-ge.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ge.svg)]
+}
+.flag-icon-gf{
+    @apply bg-[url(../flags/4x3/gf.svg)]
+}
+.flag-icon-gf.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gf.svg)]
+}
+.flag-icon-gg{
+    @apply bg-[url(../flags/4x3/gg.svg)]
+}
+.flag-icon-gg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gg.svg)]
+}
+.flag-icon-gh{
+    @apply bg-[url(../flags/4x3/gh.svg)]
+}
+.flag-icon-gh.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gh.svg)]
+}
+.flag-icon-gi{
+    @apply bg-[url(../flags/4x3/gi.svg)]
+}
+.flag-icon-gi.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gi.svg)]
+}
+.flag-icon-gl{
+    @apply bg-[url(../flags/4x3/gl.svg)]
+}
+.flag-icon-gl.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gl.svg)]
+}
+.flag-icon-gm{
+    @apply bg-[url(../flags/4x3/gm.svg)]
+}
+.flag-icon-gm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gm.svg)]
+}
+.flag-icon-gn{
+    @apply bg-[url(../flags/4x3/gn.svg)]
+}
+.flag-icon-gn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gn.svg)]
+}
+.flag-icon-gp{
+    @apply bg-[url(../flags/4x3/gp.svg)]
+}
+.flag-icon-gp.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gp.svg)]
+}
+.flag-icon-gq{
+    @apply bg-[url(../flags/4x3/gq.svg)]
+}
+.flag-icon-gq.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gq.svg)]
+}
+.flag-icon-gr{
+    @apply bg-[url(../flags/4x3/gr.svg)]
+}
+.flag-icon-gr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gr.svg)]
+}
+.flag-icon-gs{
+    @apply bg-[url(../flags/4x3/gs.svg)]
+}
+.flag-icon-gs.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gs.svg)]
+}
+.flag-icon-gt{
+    @apply bg-[url(../flags/4x3/gt.svg)]
+}
+.flag-icon-gt.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gt.svg)]
+}
+.flag-icon-gu{
+    @apply bg-[url(../flags/4x3/gu.svg)]
+}
+.flag-icon-gu.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gu.svg)]
+}
+.flag-icon-gw{
+    @apply bg-[url(../flags/4x3/gw.svg)]
+}
+.flag-icon-gw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gw.svg)]
+}
+.flag-icon-gy{
+    @apply bg-[url(../flags/4x3/gy.svg)]
+}
+.flag-icon-gy.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gy.svg)]
+}
+.flag-icon-hk{
+    @apply bg-[url(../flags/4x3/hk.svg)]
+}
+.flag-icon-hk.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/hk.svg)]
+}
+.flag-icon-hm{
+    @apply bg-[url(../flags/4x3/hm.svg)]
+}
+.flag-icon-hm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/hm.svg)]
+}
+.flag-icon-hn{
+    @apply bg-[url(../flags/4x3/hn.svg)]
+}
+.flag-icon-hn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/hn.svg)]
+}
+.flag-icon-hr{
+    @apply bg-[url(../flags/4x3/hr.svg)]
+}
+.flag-icon-hr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/hr.svg)]
+}
+.flag-icon-ht{
+    @apply bg-[url(../flags/4x3/ht.svg)]
+}
+.flag-icon-ht.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ht.svg)]
+}
+.flag-icon-hu{
+    @apply bg-[url(../flags/4x3/hu.svg)]
+}
+.flag-icon-hu.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/hu.svg)]
+}
+.flag-icon-id{
+    @apply bg-[url(../flags/4x3/id.svg)]
+}
+.flag-icon-id.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/id.svg)]
+}
+.flag-icon-ie{
+    @apply bg-[url(../flags/4x3/ie.svg)]
+}
+.flag-icon-ie.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ie.svg)]
+}
+.flag-icon-il{
+    @apply bg-[url(../flags/4x3/il.svg)]
+}
+.flag-icon-il.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/il.svg)]
+}
+.flag-icon-im{
+    @apply bg-[url(../flags/4x3/im.svg)]
+}
+.flag-icon-im.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/im.svg)]
+}
+.flag-icon-in{
+    @apply bg-[url(../flags/4x3/in.svg)]
+}
+.flag-icon-in.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/in.svg)]
+}
+.flag-icon-io{
+    @apply bg-[url(../flags/4x3/io.svg)]
+}
+.flag-icon-io.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/io.svg)]
+}
+.flag-icon-iq{
+    @apply bg-[url(../flags/4x3/iq.svg)]
+}
+.flag-icon-iq.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/iq.svg)]
+}
+.flag-icon-ir{
+    @apply bg-[url(../flags/4x3/ir.svg)]
+}
+.flag-icon-ir.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ir.svg)]
+}
+.flag-icon-is{
+    @apply bg-[url(../flags/4x3/is.svg)]
+}
+.flag-icon-is.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/is.svg)]
+}
+.flag-icon-it{
+    @apply bg-[url(../flags/4x3/it.svg)]
+}
+.flag-icon-it.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/it.svg)]
+}
+.flag-icon-je{
+    @apply bg-[url(../flags/4x3/je.svg)]
+}
+.flag-icon-je.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/je.svg)]
+}
+.flag-icon-jm{
+    @apply bg-[url(../flags/4x3/jm.svg)]
+}
+.flag-icon-jm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/jm.svg)]
+}
+.flag-icon-jo{
+    @apply bg-[url(../flags/4x3/jo.svg)]
+}
+.flag-icon-jo.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/jo.svg)]
+}
+.flag-icon-jp{
+    @apply bg-[url(../flags/4x3/jp.svg)]
+}
+.flag-icon-jp.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/jp.svg)]
+}
+.flag-icon-ke{
+    @apply bg-[url(../flags/4x3/ke.svg)]
+}
+.flag-icon-ke.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ke.svg)]
+}
+.flag-icon-kg{
+    @apply bg-[url(../flags/4x3/kg.svg)]
+}
+.flag-icon-kg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/kg.svg)]
+}
+.flag-icon-kh{
+    @apply bg-[url(../flags/4x3/kh.svg)]
+}
+.flag-icon-kh.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/kh.svg)]
+}
+.flag-icon-ki{
+    @apply bg-[url(../flags/4x3/ki.svg)]
+}
+.flag-icon-ki.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ki.svg)]
+}
+.flag-icon-km{
+    @apply bg-[url(../flags/4x3/km.svg)]
+}
+.flag-icon-km.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/km.svg)]
+}
+.flag-icon-kn{
+    @apply bg-[url(../flags/4x3/kn.svg)]
+}
+.flag-icon-kn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/kn.svg)]
+}
+.flag-icon-kp{
+    @apply bg-[url(../flags/4x3/kp.svg)]
+}
+.flag-icon-kp.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/kp.svg)]
+}
+.flag-icon-kr{
+    @apply bg-[url(../flags/4x3/kr.svg)]
+}
+.flag-icon-kr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/kr.svg)]
+}
+.flag-icon-kw{
+    @apply bg-[url(../flags/4x3/kw.svg)]
+}
+.flag-icon-kw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/kw.svg)]
+}
+.flag-icon-ky{
+    @apply bg-[url(../flags/4x3/ky.svg)]
+}
+.flag-icon-ky.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ky.svg)]
+}
+.flag-icon-kz{
+    @apply bg-[url(../flags/4x3/kz.svg)]
+}
+.flag-icon-kz.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/kz.svg)]
+}
+.flag-icon-la{
+    @apply bg-[url(../flags/4x3/la.svg)]
+}
+.flag-icon-la.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/la.svg)]
+}
+.flag-icon-lb{
+    @apply bg-[url(../flags/4x3/lb.svg)]
+}
+.flag-icon-lb.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/lb.svg)]
+}
+.flag-icon-lc{
+    @apply bg-[url(../flags/4x3/lc.svg)]
+}
+.flag-icon-lc.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/lc.svg)]
+}
+.flag-icon-li{
+    @apply bg-[url(../flags/4x3/li.svg)]
+}
+.flag-icon-li.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/li.svg)]
+}
+.flag-icon-lk{
+    @apply bg-[url(../flags/4x3/lk.svg)]
+}
+.flag-icon-lk.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/lk.svg)]
+}
+.flag-icon-lr{
+    @apply bg-[url(../flags/4x3/lr.svg)]
+}
+.flag-icon-lr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/lr.svg)]
+}
+.flag-icon-ls{
+    @apply bg-[url(../flags/4x3/ls.svg)]
+}
+.flag-icon-ls.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ls.svg)]
+}
+.flag-icon-lt{
+    @apply bg-[url(../flags/4x3/lt.svg)]
+}
+.flag-icon-lt.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/lt.svg)]
+}
+.flag-icon-lu{
+    @apply bg-[url(../flags/4x3/lu.svg)]
+}
+.flag-icon-lu.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/lu.svg)]
+}
+.flag-icon-lv{
+    @apply bg-[url(../flags/4x3/lv.svg)]
+}
+.flag-icon-lv.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/lv.svg)]
+}
+.flag-icon-ly{
+    @apply bg-[url(../flags/4x3/ly.svg)]
+}
+.flag-icon-ly.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ly.svg)]
+}
+.flag-icon-ma{
+    @apply bg-[url(../flags/4x3/ma.svg)]
+}
+.flag-icon-ma.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ma.svg)]
+}
+.flag-icon-mc{
+    @apply bg-[url(../flags/4x3/mc.svg)]
+}
+.flag-icon-mc.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mc.svg)]
+}
+.flag-icon-md{
+    @apply bg-[url(../flags/4x3/md.svg)]
+}
+.flag-icon-md.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/md.svg)]
+}
+.flag-icon-me{
+    @apply bg-[url(../flags/4x3/me.svg)]
+}
+.flag-icon-me.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/me.svg)]
+}
+.flag-icon-mf{
+    @apply bg-[url(../flags/4x3/mf.svg)]
+}
+.flag-icon-mf.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mf.svg)]
+}
+.flag-icon-mg{
+    @apply bg-[url(../flags/4x3/mg.svg)]
+}
+.flag-icon-mg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mg.svg)]
+}
+.flag-icon-mh{
+    @apply bg-[url(../flags/4x3/mh.svg)]
+}
+.flag-icon-mh.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mh.svg)]
+}
+.flag-icon-mk{
+    @apply bg-[url(../flags/4x3/mk.svg)]
+}
+.flag-icon-mk.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mk.svg)]
+}
+.flag-icon-ml{
+    @apply bg-[url(../flags/4x3/ml.svg)]
+}
+.flag-icon-ml.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ml.svg)]
+}
+.flag-icon-mm{
+    @apply bg-[url(../flags/4x3/mm.svg)]
+}
+.flag-icon-mm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mm.svg)]
+}
+.flag-icon-mn{
+    @apply bg-[url(../flags/4x3/mn.svg)]
+}
+.flag-icon-mn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mn.svg)]
+}
+.flag-icon-mo{
+    @apply bg-[url(../flags/4x3/mo.svg)]
+}
+.flag-icon-mo.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mo.svg)]
+}
+.flag-icon-mp{
+    @apply bg-[url(../flags/4x3/mp.svg)]
+}
+.flag-icon-mp.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mp.svg)]
+}
+.flag-icon-mq{
+    @apply bg-[url(../flags/4x3/mq.svg)]
+}
+.flag-icon-mq.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mq.svg)]
+}
+.flag-icon-mr{
+    @apply bg-[url(../flags/4x3/mr.svg)]
+}
+.flag-icon-mr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mr.svg)]
+}
+.flag-icon-ms{
+    @apply bg-[url(../flags/4x3/ms.svg)]
+}
+.flag-icon-ms.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ms.svg)]
+}
+.flag-icon-mt{
+    @apply bg-[url(../flags/4x3/mt.svg)]
+}
+.flag-icon-mt.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mt.svg)]
+}
+.flag-icon-mu{
+    @apply bg-[url(../flags/4x3/mu.svg)]
+}
+.flag-icon-mu.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mu.svg)]
+}
+.flag-icon-mv{
+    @apply bg-[url(../flags/4x3/mv.svg)]
+}
+.flag-icon-mv.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mv.svg)]
+}
+.flag-icon-mw{
+    @apply bg-[url(../flags/4x3/mw.svg)]
+}
+.flag-icon-mw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mw.svg)]
+}
+.flag-icon-mx{
+    @apply bg-[url(../flags/4x3/mx.svg)]
+}
+.flag-icon-mx.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mx.svg)]
+}
+.flag-icon-my{
+    @apply bg-[url(../flags/4x3/my.svg)]
+}
+.flag-icon-my.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/my.svg)]
+}
+.flag-icon-mz{
+    @apply bg-[url(../flags/4x3/mz.svg)]
+}
+.flag-icon-mz.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/mz.svg)]
+}
+.flag-icon-na{
+    @apply bg-[url(../flags/4x3/na.svg)]
+}
+.flag-icon-na.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/na.svg)]
+}
+.flag-icon-nc{
+    @apply bg-[url(../flags/4x3/nc.svg)]
+}
+.flag-icon-nc.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/nc.svg)]
+}
+.flag-icon-ne{
+    @apply bg-[url(../flags/4x3/ne.svg)]
+}
+.flag-icon-ne.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ne.svg)]
+}
+.flag-icon-nf{
+    @apply bg-[url(../flags/4x3/nf.svg)]
+}
+.flag-icon-nf.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/nf.svg)]
+}
+.flag-icon-ng{
+    @apply bg-[url(../flags/4x3/ng.svg)]
+}
+.flag-icon-ng.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ng.svg)]
+}
+.flag-icon-ni{
+    @apply bg-[url(../flags/4x3/ni.svg)]
+}
+.flag-icon-ni.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ni.svg)]
+}
+.flag-icon-nl{
+    @apply bg-[url(../flags/4x3/nl.svg)]
+}
+.flag-icon-nl.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/nl.svg)]
+}
+.flag-icon-no{
+    @apply bg-[url(../flags/4x3/no.svg)]
+}
+.flag-icon-no.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/no.svg)]
+}
+.flag-icon-np{
+    @apply bg-[url(../flags/4x3/np.svg)]
+}
+.flag-icon-np.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/np.svg)]
+}
+.flag-icon-nr{
+    @apply bg-[url(../flags/4x3/nr.svg)]
+}
+.flag-icon-nr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/nr.svg)]
+}
+.flag-icon-nu{
+    @apply bg-[url(../flags/4x3/nu.svg)]
+}
+.flag-icon-nu.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/nu.svg)]
+}
+.flag-icon-nz{
+    @apply bg-[url(../flags/4x3/nz.svg)]
+}
+.flag-icon-nz.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/nz.svg)]
+}
+.flag-icon-om{
+    @apply bg-[url(../flags/4x3/om.svg)]
+}
+.flag-icon-om.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/om.svg)]
+}
+.flag-icon-pa{
+    @apply bg-[url(../flags/4x3/pa.svg)]
+}
+.flag-icon-pa.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pa.svg)]
+}
+.flag-icon-pe{
+    @apply bg-[url(../flags/4x3/pe.svg)]
+}
+.flag-icon-pe.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pe.svg)]
+}
+.flag-icon-pf{
+    @apply bg-[url(../flags/4x3/pf.svg)]
+}
+.flag-icon-pf.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pf.svg)]
+}
+.flag-icon-pg{
+    @apply bg-[url(../flags/4x3/pg.svg)]
+}
+.flag-icon-pg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pg.svg)]
+}
+.flag-icon-ph{
+    @apply bg-[url(../flags/4x3/ph.svg)]
+}
+.flag-icon-ph.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ph.svg)]
+}
+.flag-icon-pk{
+    @apply bg-[url(../flags/4x3/pk.svg)]
+}
+.flag-icon-pk.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pk.svg)]
+}
+.flag-icon-pl{
+    @apply bg-[url(../flags/4x3/pl.svg)]
+}
+.flag-icon-pl.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pl.svg)]
+}
+.flag-icon-pm{
+    @apply bg-[url(../flags/4x3/pm.svg)]
+}
+.flag-icon-pm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pm.svg)]
+}
+.flag-icon-pn{
+    @apply bg-[url(../flags/4x3/pn.svg)]
+}
+.flag-icon-pn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pn.svg)]
+}
+.flag-icon-pr{
+    @apply bg-[url(../flags/4x3/pr.svg)]
+}
+.flag-icon-pr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pr.svg)]
+}
+.flag-icon-ps{
+    @apply bg-[url(../flags/4x3/ps.svg)]
+}
+.flag-icon-ps.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ps.svg)]
+}
+.flag-icon-pt{
+    @apply bg-[url(../flags/4x3/pt.svg)]
+}
+.flag-icon-pt.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pt.svg)]
+}
+.flag-icon-pw{
+    @apply bg-[url(../flags/4x3/pw.svg)]
+}
+.flag-icon-pw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/pw.svg)]
+}
+.flag-icon-py{
+    @apply bg-[url(../flags/4x3/py.svg)]
+}
+.flag-icon-py.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/py.svg)]
+}
+.flag-icon-qa{
+    @apply bg-[url(../flags/4x3/qa.svg)]
+}
+.flag-icon-qa.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/qa.svg)]
+}
+.flag-icon-re{
+    @apply bg-[url(../flags/4x3/re.svg)]
+}
+.flag-icon-re.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/re.svg)]
+}
+.flag-icon-ro{
+    @apply bg-[url(../flags/4x3/ro.svg)]
+}
+.flag-icon-ro.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ro.svg)]
+}
+.flag-icon-rs{
+    @apply bg-[url(../flags/4x3/rs.svg)]
+}
+.flag-icon-rs.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/rs.svg)]
+}
+.flag-icon-ru{
+    @apply bg-[url(../flags/4x3/ru.svg)]
+}
+.flag-icon-ru.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ru.svg)]
+}
+.flag-icon-rw{
+    @apply bg-[url(../flags/4x3/rw.svg)]
+}
+.flag-icon-rw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/rw.svg)]
+}
+.flag-icon-sa{
+    @apply bg-[url(../flags/4x3/sa.svg)]
+}
+.flag-icon-sa.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sa.svg)]
+}
+.flag-icon-sb{
+    @apply bg-[url(../flags/4x3/sb.svg)]
+}
+.flag-icon-sb.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sb.svg)]
+}
+.flag-icon-sc{
+    @apply bg-[url(../flags/4x3/sc.svg)]
+}
+.flag-icon-sc.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sc.svg)]
+}
+.flag-icon-sd{
+    @apply bg-[url(../flags/4x3/sd.svg)]
+}
+.flag-icon-sd.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sd.svg)]
+}
+.flag-icon-se{
+    @apply bg-[url(../flags/4x3/se.svg)]
+}
+.flag-icon-se.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/se.svg)]
+}
+.flag-icon-sg{
+    @apply bg-[url(../flags/4x3/sg.svg)]
+}
+.flag-icon-sg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sg.svg)]
+}
+.flag-icon-sh{
+    @apply bg-[url(../flags/4x3/sh.svg)]
+}
+.flag-icon-sh.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sh.svg)]
+}
+.flag-icon-si{
+    @apply bg-[url(../flags/4x3/si.svg)]
+}
+.flag-icon-si.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/si.svg)]
+}
+.flag-icon-sj{
+    @apply bg-[url(../flags/4x3/sj.svg)]
+}
+.flag-icon-sj.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sj.svg)]
+}
+.flag-icon-sk{
+    @apply bg-[url(../flags/4x3/sk.svg)]
+}
+.flag-icon-sk.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sk.svg)]
+}
+.flag-icon-sl{
+    @apply bg-[url(../flags/4x3/sl.svg)]
+}
+.flag-icon-sl.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sl.svg)]
+}
+.flag-icon-sm{
+    @apply bg-[url(../flags/4x3/sm.svg)]
+}
+.flag-icon-sm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sm.svg)]
+}
+.flag-icon-sn{
+    @apply bg-[url(../flags/4x3/sn.svg)]
+}
+.flag-icon-sn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sn.svg)]
+}
+.flag-icon-so{
+    @apply bg-[url(../flags/4x3/so.svg)]
+}
+.flag-icon-so.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/so.svg)]
+}
+.flag-icon-sr{
+    @apply bg-[url(../flags/4x3/sr.svg)]
+}
+.flag-icon-sr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sr.svg)]
+}
+.flag-icon-ss{
+    @apply bg-[url(../flags/4x3/ss.svg)]
+}
+.flag-icon-ss.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ss.svg)]
+}
+.flag-icon-st{
+    @apply bg-[url(../flags/4x3/st.svg)]
+}
+.flag-icon-st.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/st.svg)]
+}
+.flag-icon-sv{
+    @apply bg-[url(../flags/4x3/sv.svg)]
+}
+.flag-icon-sv.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sv.svg)]
+}
+.flag-icon-sx{
+    @apply bg-[url(../flags/4x3/sx.svg)]
+}
+.flag-icon-sx.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sx.svg)]
+}
+.flag-icon-sy{
+    @apply bg-[url(../flags/4x3/sy.svg)]
+}
+.flag-icon-sy.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sy.svg)]
+}
+.flag-icon-sz{
+    @apply bg-[url(../flags/4x3/sz.svg)]
+}
+.flag-icon-sz.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/sz.svg)]
+}
+.flag-icon-tc{
+    @apply bg-[url(../flags/4x3/tc.svg)]
+}
+.flag-icon-tc.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tc.svg)]
+}
+.flag-icon-td{
+    @apply bg-[url(../flags/4x3/td.svg)]
+}
+.flag-icon-td.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/td.svg)]
+}
+.flag-icon-tf{
+    @apply bg-[url(../flags/4x3/tf.svg)]
+}
+.flag-icon-tf.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tf.svg)]
+}
+.flag-icon-tg{
+    @apply bg-[url(../flags/4x3/tg.svg)]
+}
+.flag-icon-tg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tg.svg)]
+}
+.flag-icon-th{
+    @apply bg-[url(../flags/4x3/th.svg)]
+}
+.flag-icon-th.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/th.svg)]
+}
+.flag-icon-tj{
+    @apply bg-[url(../flags/4x3/tj.svg)]
+}
+.flag-icon-tj.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tj.svg)]
+}
+.flag-icon-tk{
+    @apply bg-[url(../flags/4x3/tk.svg)]
+}
+.flag-icon-tk.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tk.svg)]
+}
+.flag-icon-tl{
+    @apply bg-[url(../flags/4x3/tl.svg)]
+}
+.flag-icon-tl.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tl.svg)]
+}
+.flag-icon-tm{
+    @apply bg-[url(../flags/4x3/tm.svg)]
+}
+.flag-icon-tm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tm.svg)]
+}
+.flag-icon-tn{
+    @apply bg-[url(../flags/4x3/tn.svg)]
+}
+.flag-icon-tn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tn.svg)]
+}
+.flag-icon-to{
+    @apply bg-[url(../flags/4x3/to.svg)]
+}
+.flag-icon-to.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/to.svg)]
+}
+.flag-icon-tr{
+    @apply bg-[url(../flags/4x3/tr.svg)]
+}
+.flag-icon-tr.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tr.svg)]
+}
+.flag-icon-tt{
+    @apply bg-[url(../flags/4x3/tt.svg)]
+}
+.flag-icon-tt.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tt.svg)]
+}
+.flag-icon-tv{
+    @apply bg-[url(../flags/4x3/tv.svg)]
+}
+.flag-icon-tv.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tv.svg)]
+}
+.flag-icon-tw{
+    @apply bg-[url(../flags/4x3/tw.svg)]
+}
+.flag-icon-tw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tw.svg)]
+}
+.flag-icon-tz{
+    @apply bg-[url(../flags/4x3/tz.svg)]
+}
+.flag-icon-tz.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/tz.svg)]
+}
+.flag-icon-ua{
+    @apply bg-[url(../flags/4x3/ua.svg)]
+}
+.flag-icon-ua.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ua.svg)]
+}
+.flag-icon-ug{
+    @apply bg-[url(../flags/4x3/ug.svg)]
+}
+.flag-icon-ug.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ug.svg)]
+}
+.flag-icon-um{
+    @apply bg-[url(../flags/4x3/um.svg)]
+}
+.flag-icon-um.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/um.svg)]
+}
+.flag-icon-us{
+    @apply bg-[url(../flags/4x3/us.svg)]
+}
+.flag-icon-us.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/us.svg)]
+}
+.flag-icon-uy{
+    @apply bg-[url(../flags/4x3/uy.svg)]
+}
+.flag-icon-uy.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/uy.svg)]
+}
+.flag-icon-uz{
+    @apply bg-[url(../flags/4x3/uz.svg)]
+}
+.flag-icon-uz.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/uz.svg)]
+}
+.flag-icon-va{
+    @apply bg-[url(../flags/4x3/va.svg)]
+}
+.flag-icon-va.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/va.svg)]
+}
+.flag-icon-vc{
+    @apply bg-[url(../flags/4x3/vc.svg)]
+}
+.flag-icon-vc.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/vc.svg)]
+}
+.flag-icon-ve{
+    @apply bg-[url(../flags/4x3/ve.svg)]
+}
+.flag-icon-ve.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ve.svg)]
+}
+.flag-icon-vg{
+    @apply bg-[url(../flags/4x3/vg.svg)]
+}
+.flag-icon-vg.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/vg.svg)]
+}
+.flag-icon-vi{
+    @apply bg-[url(../flags/4x3/vi.svg)]
+}
+.flag-icon-vi.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/vi.svg)]
+}
+.flag-icon-vn{
+    @apply bg-[url(../flags/4x3/vn.svg)]
+}
+.flag-icon-vn.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/vn.svg)]
+}
+.flag-icon-vu{
+    @apply bg-[url(../flags/4x3/vu.svg)]
+}
+.flag-icon-vu.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/vu.svg)]
+}
+.flag-icon-wf{
+    @apply bg-[url(../flags/4x3/wf.svg)]
+}
+.flag-icon-wf.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/wf.svg)]
+}
+.flag-icon-ws{
+    @apply bg-[url(../flags/4x3/ws.svg)]
+}
+.flag-icon-ws.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ws.svg)]
+}
+.flag-icon-ye{
+    @apply bg-[url(../flags/4x3/ye.svg)]
+}
+.flag-icon-ye.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/ye.svg)]
+}
+.flag-icon-yt{
+    @apply bg-[url(../flags/4x3/yt.svg)]
+}
+.flag-icon-yt.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/yt.svg)]
+}
+.flag-icon-za{
+    @apply bg-[url(../flags/4x3/za.svg)]
+}
+.flag-icon-za.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/za.svg)]
+}
+.flag-icon-zm{
+    @apply bg-[url(../flags/4x3/zm.svg)]
+}
+.flag-icon-zm.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/zm.svg)]
+}
+.flag-icon-zw{
+    @apply bg-[url(../flags/4x3/zw.svg)]
+}
+.flag-icon-zw.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/zw.svg)]
+}
+.flag-icon-es-ca{
+    @apply bg-[url(../flags/4x3/es-ca.svg)]
+}
+.flag-icon-es-ca.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/es-ca.svg)]
+}
+.flag-icon-es-ga{
+    @apply bg-[url(../flags/4x3/es-ga.svg)]
+}
+.flag-icon-es-ga.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/es-ga.svg)]
+}
+.flag-icon-eu{
+    @apply bg-[url(../flags/4x3/eu.svg)]
+}
+.flag-icon-eu.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/eu.svg)]
+}
+.flag-icon-gb-eng{
+    @apply bg-[url(../flags/4x3/gb-eng.svg)]
+}
+.flag-icon-gb-eng.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gb-eng.svg)]
+}
+.flag-icon-gb-nir{
+    @apply bg-[url(../flags/4x3/gb-nir.svg)]
+}
+.flag-icon-gb-nir.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gb-nir.svg)]
+}
+.flag-icon-gb-sct{
+    @apply bg-[url(../flags/4x3/gb-sct.svg)]
+}
+.flag-icon-gb-sct.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gb-sct.svg)]
+}
+.flag-icon-gb-wls{
+    @apply bg-[url(../flags/4x3/gb-wls.svg)]
+}
+.flag-icon-gb-wls.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/gb-wls.svg)]
+}
+.flag-icon-un{
+    @apply bg-[url(../flags/4x3/un.svg)]
+}
+.flag-icon-un.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/un.svg)]
+}
+.flag-icon-xk{
+    @apply bg-[url(../flags/4x3/xk.svg)]
+}
+.flag-icon-xk.flag-icon-squared{
+    @apply bg-[url(../flags/1x1/xk.svg)]
+}
+[data-simplebar]{
+    @apply relative flex-col flex-wrap justify-start content-start items-start
+}
+.simplebar-wrapper{
+    @apply overflow-hidden w-[inherit] h-[inherit] max-w-[inherit] max-h-[inherit]
+}
+.simplebar-mask{
+    @apply overflow-hidden w-auto h-auto z-0;
+    direction:inherit
+}
+.simplebar-mask,.simplebar-offset{
+    @apply absolute m-0 p-0 inset-0
+}
+.simplebar-offset{
+    @apply resize-none;
+    direction:inherit!important;
+    box-sizing:inherit!important;
+    -webkit-overflow-scrolling:touch
+}
+.simplebar-content-wrapper{
+    @apply box-border relative block h-full w-auto max-w-full max-h-full;
+    direction:inherit;
+    scrollbar-width:none;
+    -ms-overflow-style:none
+}
+.simplebar-content-wrapper::-webkit-scrollbar,.simplebar-hide-scrollbar::-webkit-scrollbar{
+    @apply w-0 h-0
+}
+.simplebar-content:after,.simplebar-content:before{
+    @apply content-["_"] table
+}
+.simplebar-placeholder{
+    @apply max-h-full max-w-full w-full pointer-events-none
+}
+.simplebar-height-auto-observer-wrapper{
+    @apply h-full w-full max-w-px relative float-left max-h-px overflow-hidden z-[-1] pointer-events-none grow-[inherit] shrink-0 basis-0 m-0 p-0;
+    box-sizing:inherit!important
+}
+.simplebar-height-auto-observer{
+    @apply block opacity-0 h-[1000%] w-[1000%] min-h-px min-w-px z-[-1] left-0 top-0;
+    box-sizing:inherit
+}
+.simplebar-height-auto-observer,.simplebar-track{
+    @apply absolute overflow-hidden pointer-events-none
+}
+.simplebar-track{
+    @apply z-[1] right-0 bottom-0
+}
+[data-simplebar].simplebar-dragging .simplebar-content{
+    @apply pointer-events-none select-none;
+    -webkit-user-select:none
+}
+[data-simplebar].simplebar-dragging .simplebar-track{
+    pointer-events:all
+}
+.simplebar-scrollbar{
+    @apply absolute min-h-2.5 inset-x-0 before:absolute before:content-[""] before:opacity-0 before:transition-opacity before:duration-[0.2s] before:ease-linear before:rounded-[7px] before:inset-x-0.5
+}
+.simplebar-scrollbar:before{
+    background:#000
+}
+.simplebar-track.simplebar-vertical{
+    @apply w-[11px] top-0
+}
+.simplebar-track.simplebar-horizontal{
+    @apply h-[11px] left-0
+}
+[data-simplebar-direction=rtl] .simplebar-track.simplebar-vertical{
+    @apply left-0 right-auto
+}
+.hs-dummy-scrollbar-size{
+    @apply fixed opacity-0 invisible h-[500px] w-[500px] overflow-y-hidden overflow-x-scroll;
+    direction:rtl
+}
+.simplebar-hide-scrollbar{
+    @apply fixed invisible overflow-y-scroll left-0;
+    scrollbar-width:none;
+    -ms-overflow-style:none
+}
+@font-face{
+    font-family:swiper-icons;
+    src:url("data:application/font-woff;charset=utf-8;base64, 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") format("woff");
+    font-weight:400;
+    font-style:normal
+}
+:root{
+    --swiper-theme-color:#007aff
+}
+.swiper-container{
+    @apply relative overflow-hidden z-[1] mx-auto p-0;
+    list-style:none
+}
+.swiper-container-vertical>.swiper-wrapper{
+    @apply flex-col
+}
+.swiper-wrapper{
+    @apply relative w-full h-full z-[1] flex transition-transform box-content
+}
+.swiper-container-android .swiper-slide,.swiper-wrapper{
+    transform:translateZ(0)
+}
+.swiper-container-multirow>.swiper-wrapper{
+    @apply flex-wrap
+}
+.swiper-container-multirow-column>.swiper-wrapper{
+    @apply flex-wrap flex-col
+}
+.swiper-container-free-mode>.swiper-wrapper{
+    @apply ease-[ease-out] mx-auto my-0
+}
+.swiper-container-pointer-events{
+    @apply touch-pan-y
+}
+.swiper-container-pointer-events.swiper-container-vertical{
+    @apply touch-pan-x
+}
+.swiper-slide{
+    @apply shrink-0 w-full h-full relative transition-transform
+}
+.swiper-slide-invisible-blank{
+    @apply invisible
+}
+.swiper-container-autoheight,.swiper-container-autoheight .swiper-slide{
+    @apply h-auto
+}
+.swiper-container-autoheight .swiper-wrapper{
+    @apply items-start transition-[transform,height]
+}
+.swiper-container-3d{
+    perspective:1200px
+}
+.swiper-container-3d .swiper-cube-shadow,.swiper-container-3d .swiper-slide,.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top,.swiper-container-3d .swiper-wrapper{
+    transform-style:preserve-3d
+}
+.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top{
+    @apply absolute w-full h-full pointer-events-none z-10 left-0 top-0
+}
+.swiper-container-3d .swiper-slide-shadow-left{
+    @apply bg-[linear-gradient(270deg,rgba(0,0,0,0.5),transparent)]
+}
+.swiper-container-3d .swiper-slide-shadow-right{
+    @apply bg-[linear-gradient(90deg,rgba(0,0,0,0.5),transparent)]
+}
+.swiper-container-3d .swiper-slide-shadow-top{
+    @apply bg-[linear-gradient(0deg,rgba(0,0,0,0.5),transparent)]
+}
+.swiper-container-3d .swiper-slide-shadow-bottom{
+    @apply bg-[linear-gradient(180deg,rgba(0,0,0,0.5),transparent)]
+}
+.swiper-container-css-mode>.swiper-wrapper{
+    @apply overflow-auto;
+    scrollbar-width:none;
+    -ms-overflow-style:none
+}
+.swiper-container-css-mode>.swiper-wrapper::-webkit-scrollbar{
+    @apply hidden
+}
+.swiper-container-css-mode>.swiper-wrapper>.swiper-slide{
+    scroll-snap-align:start start
+}
+.swiper-container-horizontal.swiper-container-css-mode>.swiper-wrapper{
+    scroll-snap-type:x mandatory
+}
+.swiper-container-vertical.swiper-container-css-mode>.swiper-wrapper{
+    scroll-snap-type:y mandatory
+}
+:root{
+    --swiper-navigation-size:44px
+}
+.swiper-button-next,.swiper-button-prev{
+    @apply absolute w-[calc(var(--swiper-navigation-size)/44*27)] h-[var(--swiper-navigation-size)] mt-[calc(var(--swiper-navigation-size)*-1/2)] z-10 cursor-pointer flex items-center justify-center text-[color:var(--swiper-navigation-color,var(--swiper-theme-color))] top-2/4
+}
+.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled{
+    @apply opacity-35 cursor-auto pointer-events-none
+}
+.swiper-button-next:after,.swiper-button-prev:after{
+    @apply text-[length:var(--swiper-navigation-size)] normal-case tracking-[0] normal-case leading-none;
+    font-family:swiper-icons;
+    font-variant:normal
+}
+.swiper-button-prev,.swiper-container-rtl .swiper-button-next{
+    @apply left-2.5 right-auto
+}
+.swiper-button-prev:after,.swiper-container-rtl .swiper-button-next:after{
+    @apply content-["prev"]
+}
+.swiper-button-next,.swiper-container-rtl .swiper-button-prev{
+    @apply left-auto right-2.5
+}
+.swiper-button-next:after,.swiper-container-rtl .swiper-button-prev:after{
+    @apply content-["next"]
+}
+.swiper-button-next.swiper-button-white,.swiper-button-prev.swiper-button-white{
+    --swiper-navigation-color:#fff
+}
+.swiper-button-next.swiper-button-black,.swiper-button-prev.swiper-button-black{
+    --swiper-navigation-color:#000
+}
+.swiper-button-lock{
+    @apply hidden
+}
+.swiper-pagination{
+    @apply absolute text-center transition-opacity duration-[0.3s] z-10;
+    transform:translateZ(0)
+}
+.swiper-pagination.swiper-pagination-hidden{
+    @apply opacity-0
+}
+.swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction{
+    @apply w-full left-0 bottom-2.5
+}
+.swiper-pagination-bullets-dynamic{
+    @apply overflow-hidden text-[0]
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+    @apply relative scale-[0.33]
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active,.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main{
+    @apply scale-100
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{
+    @apply scale-[0.66]
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev{
+    @apply scale-[0.33]
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next{
+    @apply scale-[0.66]
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next{
+    @apply scale-[0.33]
+}
+.swiper-pagination-bullet{
+    @apply w-2 h-2 inline-block opacity-20 rounded-[50%];
+    background:#000
+}
+button.swiper-pagination-bullet{
+    @apply shadow-none appearance-none m-0 p-0 border-[none];
+    -webkit-appearance:none;
+    -moz-appearance:none
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    @apply cursor-pointer
+}
+.swiper-pagination-bullet-active{
+    @apply opacity-100;
+    background:var(--swiper-pagination-color,var(--swiper-theme-color))
+}
+.swiper-container-vertical>.swiper-pagination-bullets{
+    @apply right-2.5 top-2/4;
+    transform:translate3d(0,-50%,0)
+}
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
+    @apply block mx-0 my-1.5
+}
+.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+    @apply -translate-y-2/4 w-2 top-2/4
+}
+.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+    @apply inline-block transition-transform duration-[0.2s,top] delay-[0.2s]
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    @apply mx-1 my-0
+}
+.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+    @apply -translate-x-2/4 whitespace-nowrap left-2/4
+}
+.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+    @apply transition-transform duration-[0.2s,left] delay-[0.2s]
+}
+.swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+    @apply transition-transform duration-[0.2s,right] delay-[0.2s]
+}
+.swiper-pagination-progressbar{
+    @apply absolute;
+    background:rgba(0,0,0,.25)
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    @apply absolute w-full h-full origin-[left_top] scale-0 left-0 top-0;
+    background:var(--swiper-pagination-color,var(--swiper-theme-color))
+}
+.swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    @apply origin-[right_top]
+}
+.swiper-container-horizontal>.swiper-pagination-progressbar,.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{
+    @apply w-full h-1 left-0 top-0
+}
+.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,.swiper-container-vertical>.swiper-pagination-progressbar{
+    @apply w-1 h-full left-0 top-0
+}
+.swiper-pagination-white{
+    --swiper-pagination-color:#fff
+}
+.swiper-pagination-black{
+    --swiper-pagination-color:#000
+}
+.swiper-pagination-lock{
+    @apply hidden
+}
+.swiper-scrollbar{
+    @apply relative rounded-[10px];
+    -ms-touch-action:none;
+    background:rgba(0,0,0,.1)
+}
+.swiper-container-horizontal>.swiper-scrollbar{
+    @apply absolute z-50 h-[5px] w-[98%] left-[1%] bottom-[3px]
+}
+.swiper-container-vertical>.swiper-scrollbar{
+    @apply absolute z-50 w-[5px] h-[98%] right-[3px] top-[1%]
+}
+.swiper-scrollbar-drag{
+    @apply h-full w-full relative rounded-[10px] left-0 top-0;
+    background:rgba(0,0,0,.5)
+}
+.swiper-scrollbar-cursor-drag{
+    @apply cursor-move
+}
+.swiper-scrollbar-lock{
+    @apply hidden
+}
+.swiper-zoom-container{
+    @apply w-full h-full flex justify-center items-center text-center
+}
+.swiper-zoom-container>canvas,.swiper-zoom-container>img,.swiper-zoom-container>svg{
+    @apply max-w-full max-h-full object-contain
+}
+.swiper-slide-zoomed{
+    @apply cursor-move
+}
+.swiper-lazy-preloader{
+    @apply w-[42px] h-[42px] absolute ml-[-21px] mt-[-21px] z-10 origin-[50%] animate-[swiper-preloader-spin_1s_linear_infinite] box-border border-[color:var(--swiper-preloader-color,var(--swiper-theme-color))] rounded-[50%] border-t-transparent border-4 border-solid left-2/4 top-2/4
+}
+.swiper-lazy-preloader-white{
+    --swiper-preloader-color:#fff
+}
+.swiper-lazy-preloader-black{
+    --swiper-preloader-color:#000
+}
+@keyframes swiper-preloader-spin{
+    to{
+        @apply rotate-[1turn]
+    }
+}
+.swiper-container .swiper-notification{
+    @apply absolute pointer-events-none opacity-0 z-[-1000] left-0 top-0
+}
+.swiper-container-fade.swiper-container-free-mode .swiper-slide{
+    @apply ease-[ease-out]
+}
+.swiper-container-fade .swiper-slide{
+    @apply pointer-events-none transition-opacity
+}
+.swiper-container-fade .swiper-slide .swiper-slide{
+    @apply pointer-events-none
+}
+.swiper-container-fade .swiper-slide-active,.swiper-container-fade .swiper-slide-active .swiper-slide-active{
+    @apply pointer-events-auto
+}
+.swiper-container-cube{
+    @apply overflow-visible
+}
+.swiper-container-cube .swiper-slide{
+    @apply pointer-events-none z-[1] invisible origin-[0_0] w-full h-full;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden
+}
+.swiper-container-cube .swiper-slide .swiper-slide{
+    @apply pointer-events-none
+}
+.swiper-container-cube.swiper-container-rtl .swiper-slide{
+    @apply origin-[100%_0]
+}
+.swiper-container-cube .swiper-slide-active,.swiper-container-cube .swiper-slide-active .swiper-slide-active{
+    @apply pointer-events-auto
+}
+.swiper-container-cube .swiper-slide-active,.swiper-container-cube .swiper-slide-next,.swiper-container-cube .swiper-slide-next+.swiper-slide,.swiper-container-cube .swiper-slide-prev{
+    @apply pointer-events-auto visible
+}
+.swiper-container-cube .swiper-slide-shadow-bottom,.swiper-container-cube .swiper-slide-shadow-left,.swiper-container-cube .swiper-slide-shadow-right,.swiper-container-cube .swiper-slide-shadow-top{
+    @apply z-0;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden
+}
+.swiper-container-cube .swiper-cube-shadow{
+    @apply absolute w-full h-full opacity-60 z-0 left-0 bottom-0 before:content-[""] before:absolute before:blur-[50px] before:inset-0
+}
+.swiper-container-cube .swiper-cube-shadow:before{
+    background:#000;
+    -webkit-filter:blur(50px)
+}
+.swiper-container-flip{
+    @apply overflow-visible
+}
+.swiper-container-flip .swiper-slide{
+    @apply pointer-events-none z-[1];
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden
+}
+.swiper-container-flip .swiper-slide .swiper-slide{
+    @apply pointer-events-none
+}
+.swiper-container-flip .swiper-slide-active,.swiper-container-flip .swiper-slide-active .swiper-slide-active{
+    @apply pointer-events-auto
+}
+.swiper-container-flip .swiper-slide-shadow-bottom,.swiper-container-flip .swiper-slide-shadow-left,.swiper-container-flip .swiper-slide-shadow-right,.swiper-container-flip .swiper-slide-shadow-top{
+    @apply z-0;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden
+}
